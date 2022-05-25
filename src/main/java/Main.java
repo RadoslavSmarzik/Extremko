@@ -29,6 +29,7 @@ public class Main {
 
         dataSource.setPassword("d768a80621f7bdec33fe1975e02b259a5cdd7a1978fd8986a4c12e3cd455e034");
 
+        System.out.println("AAAa");
         try (Connection connection = dataSource.getConnection()) {
             DbContext.setConnection(connection);
             Query query = new Query();
