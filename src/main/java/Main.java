@@ -44,6 +44,8 @@ public class Main {
             DbContext.clear();
         }
 
+        System.out.println("SKUSAM");
+
     }
 
 
